@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91876470490c28341971f74cd1d16f17, type: 3}
+  m_Name: corn
+  m_EditorClassIdentifier: 
+  itemId: corn
+  itemName: "\u7389\u7C73"
+  description: "\u91D1\u9EC4\u8272\u7684\u7389\u7C73\uFF0C\u9999\u751C\u53EF\u53E3\uFF0C\u53EF\u70E4\u7740\u5403\u6216\u7528\u6765\u5582\u517B\u5BB6\u755C\u3002"
+  acquisitionMethod: "\u79CD\u690D\u7389\u7C73\u79CD\u5B50\u83B7\u5F97\uFF0C\u6216\u5546\u5E97\u8D2D\u4E70\uFF0820\u91D1\u5E01\uFF09"
+  icon: {fileID: 21300000, guid: e69d3a5dcc552194689ae5105da74a40, type: 3}
+  itemType: 0
+  toolType: 0
+  maxStack: 99
+  buyPrice: 20
+  sellPrice: 12
+  treeEfficiency: 1
+  rockEfficiency: 1
+  weedEfficiency: 1
+  cropId: corn
+  growTime: 0

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 738cb44a32cccb243869da0c39263923, type: 3}
+  m_Name: carrot
+  m_EditorClassIdentifier: 
+  cropId: carrot
+  cropName: "\u80E1\u841D\u535C"
+  seedPrefab: {fileID: 0}
+  growingPrefab: {fileID: 0}
+  maturePrefab: {fileID: 3316040944536520412, guid: b4b2c85c80263ad49a2b78982078d672, type: 3}
+  growTimePerStage: 60
+  harvestItemId: carrot
+  minHarvest: 1
+  maxHarvest: 3

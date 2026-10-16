@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91876470490c28341971f74cd1d16f17, type: 3}
+  m_Name: tomato_seed
+  m_EditorClassIdentifier: 
+  itemId: tomato_seed
+  itemName: "\u756A\u8304\u79CD\u5B50"
+  description: "\u756A\u8304\u7684\u79CD\u5B50\uFF0C\u79CD\u4E0B\u540E\u6089\u5FC3\u7167\u6599\uFF0C\u7EA67\u5929\u53EF\u6536\u83B7\u7EA2\u5F64\u5F64\u7684\u756A\u8304\u3002"
+  acquisitionMethod: "\u5546\u5E97\u8D2D\u4E70\uFF0810\u91D1\u5E01\uFF09\u6216\u5B8C\u6210\u65B0\u624B\u4EFB\u52A1\u83B7\u5F97"
+  icon: {fileID: 21300000, guid: d4fe99caed792a1438e7dab83cb47e4c, type: 3}
+  itemType: 1
+  toolType: 0
+  maxStack: 99
+  buyPrice: 10
+  sellPrice: 5
+  treeEfficiency: 1
+  rockEfficiency: 1
+  weedEfficiency: 1
+  cropId: tomato
+  growTime: 60

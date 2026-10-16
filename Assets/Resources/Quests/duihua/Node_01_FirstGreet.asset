@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d002e6739939a45b5ede892d70e2c6, type: 3}
+  m_Name: Node_01_FirstGreet
+  m_EditorClassIdentifier: 
+  npcLine: "\u54CE\u5440\uFF0C\u8FD9\u4E0D\u662F{\u73A9\u5BB6\u59D3\u540D}\u5417\uFF1F\u542C\u8BF4\u4F60\u5728\u57CE\u91CC\u5B66\u519C\u4E1A\uFF1F\u600E\u4E48\u6709\u7A7A\u56DE\u6751\u4E86\uFF1F"
+  options: []
+  endDialogue: 0
+  nextNode: {fileID: 11400000, guid: 921d2d8c8b9e4a3418f8db825e2d6493, type: 2}

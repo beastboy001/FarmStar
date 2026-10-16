@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09f91ae10474d4a40bf273b5c8483ab1, type: 3}
+  m_Name: DialogueTree_Mayor
+  m_EditorClassIdentifier: 
+  treeName: "\u6751\u957F\u5BF9\u8BDD\u6811"
+  startNode: {fileID: 11400000, guid: c19b7c9c2507dc24f9ead0b37380cbde, type: 2}
+  taskNodes:
+  - questId: visit_village_head
+    node: {fileID: 11400000, guid: 42d76931bf8d18f45ab73ba1cf720e48, type: 2}
+    triggerType: 2
+  - questId: try_planting
+    node: {fileID: 11400000, guid: b5510c961060a544cb5893ce487e94af, type: 2}
+    triggerType: 1
+  - questId: try_planting
+    node: {fileID: 11400000, guid: 483a8c7e0c76a8841a5b7e952da1b624, type: 2}
+    triggerType: 2
+  - questId: all_completed
+    node: {fileID: 11400000, guid: 0043018b8e26c1d4db84805d746aaec1, type: 2}
+    triggerType: 0

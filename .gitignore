@@ -1,0 +1,72 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+[Ee]xportedObj/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+.gradle/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Plastic / misc
+.plastic/
+*.private
+*.private.meta
+sysinfo.txt
+crashlytics-build-properties
+*.apk
+*.aab
+*.app
+*.unitypackage
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# OS / tools
+ignore.conf
+_find_large.ps1
+_list_large.ps1
+_commit_snapshot.bat
+
+# GitHub 单文件上限 100MB：超大资源本地保留，不入库
+Assets/Resources/Prefabs/Scene/民居.fbx
+Assets/Resources/Prefabs/Scene/民居.fbx.meta
+
+# Blender 源文件 / 备份（Unity 用导出模型即可）
+*.blend
+*.blend1
+*.blend.meta
+*.blend1.meta
+
+# 视频素材（体积大，非运行必需可本地保留）
+*.mp4
+*.mp4.meta
+
+# 体积较大且非核心运行资源
+Assets/Resources/Prefabs/Character/骨骼.obj
+Assets/Resources/Prefabs/Character/骨骼.obj.meta
+Assets/Anim/Animations/20260511_155203_mofx_mocap.fbx
+Assets/Anim/Animations/20260511_155203_mofx_mocap.fbx.meta
+Assets/PolygonFarm/Demo/

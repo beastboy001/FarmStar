@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 313f1a74d544d9c42a6ac50ece3f701a, type: 3}
+  m_Name: visit_village_head
+  m_EditorClassIdentifier: 
+  questId: visit_village_head
+  questName: "\u5BFB\u627E\u6751\u957F\u7237\u7237"
+  description: "\u53BB\u6751\u5E84\u5E7F\u573A\u627E\u5230\u6751\u957F\u7237\u7237\uFF0C\u5411\u4ED6\u8BE2\u95EE\u519C\u573A\u7684\u4E8B\u60C5"
+  questIcon: {fileID: 0}
+  category: "\u4E3B\u7EBF"
+  goals:
+  - type: 0
+    targetId: "\u6751\u957F"
+    requiredAmount: 1
+    customDesc: 
+  goldReward: 100
+  itemRewards:
+  - itemId: hoe
+    amount: 1
+    customIcon: {fileID: 21300000, guid: ac592316217726d45aef582c156d5eca, type: 3}
+  - itemId: axe
+    amount: 1
+    customIcon: {fileID: 21300000, guid: 158f71a62126f64458af538a43560021, type: 3}
+  - itemId: pickaxe
+    amount: 1
+    customIcon: {fileID: 21300000, guid: 68f93c4aa506f9c409f26cfedd449127, type: 3}
+  - itemId: tomato_seed
+    amount: 5
+    customIcon: {fileID: 21300000, guid: 12aefe058c71a9742a7fc8c844ced223, type: 3}
+  - itemId: wheat_seed
+    amount: 5
+    customIcon: {fileID: 21300000, guid: 7f33cde83ff782347bde6448251285cc, type: 3}
+  prerequisiteQuests: []
+  relatedNPCId: 

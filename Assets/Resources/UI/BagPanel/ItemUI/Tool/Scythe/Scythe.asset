@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91876470490c28341971f74cd1d16f17, type: 3}
+  m_Name: Scythe
+  m_EditorClassIdentifier: 
+  itemId: scythe
+  itemName: 
+  description: "\u7528\u4E8E\u5272\u8349\u7684\u5DE5\u5177"
+  acquisitionMethod: "\u521D\u59CB\u8D60\u9001\u6216\u5546\u5E97\u8D2D\u4E70"
+  icon: {fileID: 0}
+  itemType: 2
+  toolType: 4
+  maxStack: 1
+  buyPrice: 80
+  sellPrice: 40
+  treeEfficiency: 1
+  rockEfficiency: 1
+  weedEfficiency: 1
+  cropId: 
+  growTime: 0
